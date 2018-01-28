@@ -32,3 +32,6 @@ loop do
   puts "#{i}"
   break if i <= 0
 end
+
+#.times iterator - performs a task on each item in an object a specified number of times
+10.times { "You complete my fate" }
