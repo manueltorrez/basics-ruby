@@ -20,3 +20,7 @@ $ rails generate migration name_of_migration
 #Execute migration
 
 $ rails db:migrate
+
+#Start rails console
+
+$ rails console
