@@ -12,3 +12,7 @@ root "pages#home"
 
 #On config/routes.rb, it gets the /about request and redirects it to an specific page using the action in the "pages" controller
 get '/about', to 'pages#about'
+
+#Create migration
+
+$ rails generate migration name_of_migration
