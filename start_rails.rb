@@ -15,7 +15,7 @@ get '/about', to 'pages#about'
 
 #Create migration
 
-$ rails generate migration name_of_migration
+$ rails generate migration name_of_migration #example: rails generate migration create_students. Here you have to write the columns for the table
 
 #Execute migration
 
@@ -25,10 +25,10 @@ $ rails db:migrate
 
 $ rails console
 
-#In rails console: fill a model related to a table
+#In rails console: creates a new object but doesn't save to db
 
 lunch = Todo.new(name: "lunch", description: "I'm gonna cook lunch") #lunch is a variable, Todo a class
 
-#Saves object into the table in db
+#Saves object to database
 
 lunch.save
