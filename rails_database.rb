@@ -17,3 +17,7 @@ lunch = Todo.new(name: "lunch", description: "I'm gonna cook lunch") #lunch is a
 #Saves object to database
 
 lunch.save
+
+#Creates directly in database right away as long as no errors
+
+lunch = Todo.create(name: "lunch", description: "I'm gonna cook lunch")
