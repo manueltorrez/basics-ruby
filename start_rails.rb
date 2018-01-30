@@ -28,3 +28,7 @@ $ rails console
 #In rails console: fill a model related to a table
 
 lunch = Todo.new(name: "lunch", description: "I'm gonna cook lunch") #lunch is a variable, Todo a class
+
+#Saves object into the table in db
+
+lunch.save
