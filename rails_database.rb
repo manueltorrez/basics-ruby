@@ -21,3 +21,7 @@ lunch.save
 #Creates directly in database right away as long as no errors
 
 lunch = Todo.create(name: "lunch", description: "I'm gonna cook lunch")
+
+#Finds a row
+
+todo1 = Todo.find 2 #todo1 is a variable, Todo a model and 2 is the id
