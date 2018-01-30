@@ -24,3 +24,7 @@ $ rails db:migrate
 #Start rails console
 
 $ rails console
+
+#In rails console: fill a model related to a table
+
+lunch = Todo.new(name: "lunch", description: "I'm gonna cook lunch") #lunch is a variable, Todo a class
