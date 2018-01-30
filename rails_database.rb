@@ -25,3 +25,17 @@ lunch = Todo.create(name: "lunch", description: "I'm gonna cook lunch")
 #Finds a row
 
 todo1 = Todo.find 2 #todo1 is a variable, Todo a model and 2 is the id
+
+#Edit a row
+
+todo1.description = "This is an update"
+todo1.save
+
+#Delete a row
+
+todo1.destroy
+
+#Retrieving the first or last item in the table
+
+todo2 = Todo.first
+todo2 = Todo.last
