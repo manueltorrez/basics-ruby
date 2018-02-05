@@ -2,6 +2,9 @@
 
 $ rails generate migration name_of_migration #example: rails generate migration create_students. Here you have to write the columns for the table
 
+#Add column to a table (first you need to create the migration)
+add_column :table_to_modify, :column_name, :type #example: add_column :todos, :user_id, :integer
+
 #Execute migration
 
 $ rails db:migrate
